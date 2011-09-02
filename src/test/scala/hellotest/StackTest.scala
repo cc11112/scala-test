@@ -1,14 +1,15 @@
 package hellotest
 
 // example straight from scalatest.org 
+// but slightly modified to run as a JUnit test in Eclipse
+
+import scala.collection.mutable.Stack
 
 import org.junit.runner.RunWith
-import org.scalatest.FlatSpec
-import org.scalatest.matchers.ShouldMatchers
-import scala.collection.mutable.Stack
-import org.scalatest.matchers.MustMatchers
 import org.scalatest.junit.JUnitRunner
+import org.scalatest.FlatSpec
 import org.scalatest.Suite
+import org.scalatest.matchers.MustMatchers
 
 @RunWith(classOf[JUnitRunner])
 class StackSpec extends FlatSpec with MustMatchers with Suite {
