@@ -26,4 +26,6 @@ class StackSpec extends FlatSpec with MustMatchers with Suite {
     val emptyStack = new Stack[String]
     evaluating { emptyStack.pop() } must produce [NoSuchElementException]
   }
+  
+  
 }
