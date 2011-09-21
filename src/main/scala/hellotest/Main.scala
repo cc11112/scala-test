@@ -24,7 +24,7 @@ object Main {
   val a = new Succ(Zero);
   val b = new Succ(a);
 
-  //how to wrtie test case
+  //how to write test case?
   
   def main(args: Array[String]) = println(a.toInt(b.plus(a)(b)))
 }
